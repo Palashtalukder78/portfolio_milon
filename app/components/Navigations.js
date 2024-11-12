@@ -26,6 +26,7 @@ export default  function Navigation() {
           alt="Centered Icon"
           width={60}
           height={60}
+          placeholder="blur"
           className="w-14 h-14 mb-4 md:w-16 md:h-16 lg:w-20 lg:h-20 rounded-full"
         />
       </div>
@@ -35,6 +36,9 @@ export default  function Navigation() {
         </Link>
         <Link className="text-white" href="/contact">
           Contact
+        </Link>
+        <Link className="text-white" href="/testing">
+          test
         </Link>
         <button className="bg-white px-3 py-1 rounded-md text-sm hidden">
           Logout
