@@ -12,8 +12,8 @@ export default function RootLayOut() {
         placeholder="blur"
         alt="Milon-Photo"
       />
-      <h1 className="text-center text-2xl mt-4">Md Milon</h1>
-      <h1 className="text-xl">Electical Engineer</h1>
+      <h1 className="text-center text-2xl mt-4">মোঃ মিলন</h1>
+      <h1 className="text-xl">বৈদ্যুতিক মেকানিক</h1>
       <a href="tel:+8801980458547" className="text-blue-500">
         01980458547
       </a>

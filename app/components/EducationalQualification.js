@@ -1,7 +1,7 @@
 export default function EducationalQualification() {
   return (
     <>
-      <h1 className="text-2xl">Qualifications:</h1>
+      <h1 className="text-2xl">শিক্ষাগত যোগ্যতা:</h1>
       <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
         <li>
           <div className="timeline-middle">
@@ -19,9 +19,9 @@ export default function EducationalQualification() {
             </svg>
           </div>
           <div className="timeline-start mb-10 md:text-end">
-            <time className="font-mono italic text-primary">2005</time>
-            <div className="text-lg font-black">Primary School certificate</div>
-            GPA 5 out of 5
+            <time className="font-mono italic text-primary">২০২০</time>
+            <div className="text-lg font-black">প্রাথমিক বিদ্যালয়ের সার্টিফিকেট</div>
+            ৫ এর মধ্যে জিপিএ ৪.৯৮
           </div>
           <hr />
         </li>
@@ -42,9 +42,9 @@ export default function EducationalQualification() {
             </svg>
           </div>
           <div className="timeline-end mb-10">
-            <time className="font-mono italic text-primary">2008</time>
-            <div className="text-lg font-black">Junior School Certificate</div>
-            <span>Gpa 5 out of 5</span>
+            <time className="font-mono italic text-primary">2023</time>
+            <div className="text-lg font-black">জুনিয়র স্কুল সার্টিফিকেট</div>
+            <span>জিপিএ ৫ এর মধ্যে ৪.৯৮</span>
           </div>
           <hr />
         </li>
@@ -65,9 +65,9 @@ export default function EducationalQualification() {
             </svg>
           </div>
           <div className="timeline-start mb-10 md:text-end">
-            <time className="font-mono italic text-primary">2025</time>
-            <div className="text-lg font-black">Secondary School Certificate</div>
-            <span>Pending</span>
+            <time className="font-mono italic text-primary">২০২৫</time>
+            <div className="text-lg font-black">মাধ্যমিক স্কুল সার্টিফিকেট</div>
+            <span>অধ্যয়নরত</span>
           </div>
         </li>
       </ul>

@@ -30,8 +30,11 @@ export default  function Navigation() {
         />
       </div>
       <div className="flex space-x-6 mx-6 align-middle">
-        <Link className="text-white" href="/about">
-          Service
+        <Link className="text-white" href="/projects">
+          Projects
+        </Link>
+        <Link className="text-white" href="/contact">
+          Contact
         </Link>
         <button className="bg-white px-3 py-1 rounded-md text-sm hidden">
           Logout
