@@ -1,4 +1,5 @@
 import localFont from "next/font/local";
+import Navigation from "./components/Navigations";
 import "./globals.css";
 
 const geistSans = localFont({
@@ -23,7 +24,10 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <div className="mx-2 xl:mx-40 p-1">{children}</div>
+        <>
+          <Navigation />
+        </>
       </body>
     </html>
   );
