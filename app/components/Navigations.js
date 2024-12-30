@@ -1,8 +1,7 @@
 import logoImg from "@/public/assets/images/logo1.png";
 import Image from "next/image";
 import Link from "next/link";
-export default  function Navigation() {
-
+export default function Navigation() {
   return (
     <div className="fixed bottom-0 left-0 right-0 bg-blue-700 flex justify-between items-center p-3 md:w-8/12 lg:w-5/12 mx-auto  rounded-3xl">
       {/* Menu items */}
@@ -12,6 +11,9 @@ export default  function Navigation() {
         </Link>
         <Link className="text-white" href="/about">
           About
+        </Link>
+        <Link className="text-white" href="/addproject">
+          Add Project
         </Link>
       </div>
 
